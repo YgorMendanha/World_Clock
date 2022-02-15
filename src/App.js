@@ -8,8 +8,7 @@ import './App.css';
 function App() { 
 
   const [ thevalue , setThevalues]  = useState ({
-    place:"",
-    continent:""
+    place:""
   }) 
   const [ thevalueclock , setThevaluesclock ]  = useState ([])
    
@@ -32,34 +31,18 @@ function App() {
     console.log(idx)
   }
   function ToCheck(){
-    let continent = thevalue.continent
     let place = thevalue.place.replace(" ", "_")
-    let localization = continent+"/"+place
-    let filter = filterItems(localization)
-    if(continent === 0){
-      alert("Selecione o continente")
-    }
-    else{
+    let filter = filterItems(place)
       if(filter.length <= 0 || filter.length >= 2){
         alert("Localizaçao indisponivel")
       }else{
         setThevaluesclock([...thevalueclock, filter])
-      }
-  }
+      } 
   }
   return (    
     <div className="app">
       <div className="main">
-          <form className="input"onChange={handleInputChange}>
-            <select>
-              <option value="0" defaultChecked>Escolha um Continente</option>
-              <option value="America">America</option>
-              <option value="Àfrica">Àfrica</option>
-              <option value="Asia">Asia</option>
-              <option value="Antartica">Antartica</option>
-              <option value="Oceania">Oceania</option>
-              <option value="Europa">Europa</option>
-            </select>  
+          <form className="input"onChange={handleInputChange}>            
             <input type="text" name="place" placeholder="Digite um Local..."></input>
             <button className="btn" type="button" onClick={ToCheck}>Verificar</button>
           </form>

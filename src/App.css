@@ -17,16 +17,7 @@
     text-align: center;
     margin-top: 200px;
 }
-.main .input select{
-    border:none;
-    -webkit-appearance:none;
-    background-color: #2D3047;
-    color: white;
-    height: 30px;
-    width: 150px;
-    padding: 5px;
-    border-radius: 5px ;
-}
+
 .main .input input{
     border:none;
     background-color: #2D3047;
@@ -45,7 +36,6 @@
     border-radius:5px;
 }
 .main .input .btn:hover{ 
-    border: 3px solid #2D3047;
     background-color: #2D3047;
     color: white;
 }

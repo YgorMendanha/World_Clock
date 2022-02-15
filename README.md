@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+![Banner_World_Clock](src/img/World_Clock.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">World Clock</h1>
+<br>
+<div align="center"> 
 
-## Available Scripts
+![last commit](https://img.shields.io/github/last-commit/YgorMendanha/World_Clock) ![license](https://img.shields.io/github/license/YgorMendanha/World_Clock) ![Deploy](https://img.shields.io/github/deployments/YgorMendanha/World_Clock/github-pages) 
 
-In the project directory, you can run:
+</div> 
 
-### `npm start`
+<br>
+<p align="center"> 
+    <a href="#projeto">Projeto Online</a> •
+    <a href="#prerequisitos">Pré-requisitos</a> •
+    <a href="#tecnologias">Tecnologias</a> •  
+    <a href="#autor">Autor</a> •
+    <a href="#licenca">Licença</a> • 
+</p>
+<br>
+<h3 align="center"> 
+Veja o Projeto Online clicando 
+ <a href="https://ygormendanha.github.io/World_Clock/"> Aqui!</a>
+</h3>
+<br>
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h2 id="prerequisitos">Pré-requisitos:</h2>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-### `npm run build`
+<br><br>
+<h3 id="frontend">🚀 Rodando o Front End </h3>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+# Clone este repositório
+$ git clone <https://github.com/YgorMendanha/World_Clock>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Acesse a pasta do projeto no terminal/cmd
+$ cd world_clock
 
-### `npm run eject`
+# Instale as dependências
+$ npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Execute a aplicação 
+$ npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# A Aplicaçao inciará na porta:3000 - acesse <http://localhost:3000>
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<h3 id="tecnologias">🛠 Tecnologias </h2> 
 
-## Learn More
+As seguintes ferramentas foram usadas na construção do projeto:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [React](https://pt-br.reactjs.org/)
+- [Moment](https://momentjs.com/timezone/)
+- [React Live Clock](https://github.com/pvoznyuk/react-live-clock)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+<br>
+<h2 id="autor">Feito por Ygor Mendanha 👽</h2>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<br>
 
-### Analyzing the Bundle Size
+<p align="center">
+    <a href=https://www.linkedin.com/in/ygormendanha/>
+        <img alt="linkedin" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white&link=mailto:https://www.linkedin.com/in/ygormendanha/">
+    </a>
+  &nbsp;
+  <a href="https://www.instagram.com/_oygorguimaraes/">
+        <img alt="instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
+    </a>
+  &nbsp;
+    <a href="https://twitter.com/oTalDoPatolino">
+    <img alt="twitter" src="https://img.shields.io/twitter/follow/oTalDoPatolino?color=1DA1F2&logo=twitter&style=for-the-badge&label=twitter" />
+  </a>
+  &nbsp;
+    <a href="https://github.com/YgorMendanha">
+    <img alt="github" src="https://img.shields.io/github/followers/YgorMendanha?color=181717&logo=github&style=for-the-badge&label=github" />
+  </a>
+</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<br>
+<h2 id="licenca"> 📝 Licença </h2>
 
-### Making a Progressive Web App
+Este projeto esta sobe a licença MIT.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
