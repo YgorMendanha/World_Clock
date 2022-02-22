@@ -1,4 +1,4 @@
-![Banner_World_Clock](src/img/World_Clock.png)
+![Banner_World_Clock](src/_assets/img/World_ClockBanner.png)
 
 <h1 align="center">World Clock</h1>
 <br>
