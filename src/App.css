@@ -1,88 +1,83 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    
+* {
+	margin: 0px;
+	padding: 0px;
 }
-.app{
-    background-color: #6A8EAE;
-    width:100%;
-    min-height: 100vh; 
-    height:100%;   
-    display: flex;
+.app {
+	background-color: #6a8eae;
+	width: 100%;
+	min-height: 100vh;
+	height: 100%;
+	display: flex;
 }
-.main{
-    display: block;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    margin-top: 200px;
-}
-
-.main .input input{
-    border:none;
-    background-color: #2D3047;
-    color: white;
-    height:30px;
-    margin: 4px;
-    border-radius: 5px;
- 
-}
-.main .input .btn{
-    border:none;
-    background-color: #2D3047;
-    color: white;
-    height:30px;
-    width: 60px;
-    border-radius:5px;
-}
-.main .input .btn:hover{ 
-    background-color: #2D3047;
-    color: white;
-}
-.main .clock{
-    width: 100vw; 
-    height: 100%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    flex-wrap: wrap;   
+.main {
+	display: block;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	margin-top: 200px;
 }
 
-.main .clock .place{    
-    color: #97CC04;  
-    width: 200px;
-    background-color: rgb(56, 56, 56); 
-    font-size: 3em;
-    border: 3px solid rgb(0, 0, 0);
-    margin: 10px; 
-    font-family: 'Quantico', sans-serif; 
-    text-align: center;
-    
+.main .input input {
+	border: none;
+	background-color: #2d3047;
+	color: white;
+	height: 30px;
+	margin: 4px;
+	border-radius: 5px;
 }
-.main .clock .place .header{    
-   display: flex;
-   width: 100%;
-   
+.main .input .btn {
+	border: none;
+	background-color: #2d3047;
+	color: white;
+	height: 30px;
+	width: 60px;
+	border-radius: 5px;
 }
-.main .clock .place .header p{    
-    font-size: 1rem;
-    width:100%;
-    margin-left: 20px;    
+.main .input .btn:hover {
+	background-color: #2d3047;
+	color: white;
 }
-.main .clock .place .header button{ 
-    border:none;   
-    margin: 5px;
-    background-color: transparent; 
-    color:#97CC04;
-    position: relative;    
-}
-.main .clock .place .header button:hover{ 
-    border: 5px solid #4e4d4e; 
-    border-radius: 5px;
-    margin: 0px;  
-    background-color: #474647; 
-    color:#97CC04;
-    position: relative;    
+.main .clock {
+	width: 100vw;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
+.main .clock .place {
+	color: #97cc04;
+	width: 200px;
+	background-color: rgb(56, 56, 56);
+	font-size: 3em;
+	border: 3px solid rgb(0, 0, 0);
+	margin: 10px;
+	font-family: 'Quantico', sans-serif;
+	text-align: center;
+}
+.main .clock .place .header {
+	display: flex;
+	width: 100%;
+}
+.main .clock .place .header p {
+	font-size: 1rem;
+	width: 100%;
+	margin-left: 20px;
+}
+.main .clock .place .header button {
+	border: none;
+	margin: 5px;
+	background-color: transparent;
+	color: #97cc04;
+	position: relative;
+}
+.main .clock .place .header button:hover {
+	border: 5px solid #4e4d4e;
+	border-radius: 5px;
+	margin: 0px;
+	background-color: #474647;
+	color: #97cc04;
+	position: relative;
+}
